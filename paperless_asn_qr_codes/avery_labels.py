@@ -30,7 +30,7 @@ class LabelInfo:
     gutter_size: tuple[float, float]
     margin: tuple[float, float]
     pagesize: tuple[float, float]
-    textsize: float = 2 * mm
+    textsize: float = 2.5 * mm
 
 
 labelInfo: dict[str, LabelInfo] = {
@@ -39,7 +39,7 @@ labelInfo: dict[str, LabelInfo] = {
         labels_vertical=27,
         label_size=(25.4 * mm, 10 * mm),
         gutter_size=(2.5 * mm, 0),
-        margin=(9 * mm, 13.5 * mm),
+        margin=(11 * mm, 15.0 * mm),
         pagesize=A4,
     ),
     "averyL4732": LabelInfo(
